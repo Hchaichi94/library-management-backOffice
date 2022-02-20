@@ -55,6 +55,10 @@ const SideBar: React.FC<PropsSideBar> = ({ visibleDrawer, setVisibleDrawer }) =>
             setSelectedSideBarKey(["10"])
             setSelectedSideBarSub(["sub4"])
         }
+        if (location.pathname === "/account") {
+            setSelectedSideBarKey(["1"])
+            setSelectedSideBarSub([""])
+        }
     }, [location.pathname])
 
 

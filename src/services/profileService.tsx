@@ -1,9 +1,8 @@
 import axiosInstance from '../utils/axiosInstance'
 
-export async function getProfile() {
-
+export async function getAccount() {
     try {
-        const res = await axiosInstance(`/admin/getAdminInfo`, {
+        const res = await axiosInstance(`/user/account`, {
             method: "GET",
         })
         return { data: res.data }
@@ -13,17 +12,4 @@ export async function getProfile() {
     }
 
 }
-export async function updateProfile(data: { username: string, password: string | undefined }, id: string) {
 
-    try {
-        const res = await axiosInstance(`/admin/updateAdmin/${id}`, {
-            method: "PATCH",
-            data
-        })
-        return { status: res.status }
-
-    } catch (err: any) {
-        return { error: err.response }
-    }
-
-}

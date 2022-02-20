@@ -1,10 +1,10 @@
 
 import axiosInstance from '../utils/axiosInstance'
 
-export async function createUser(data: any) {
+export async function createBook(data: any) {
 
     try {
-        const res = await axiosInstance(`/user`, {
+        const res = await axiosInstance(`/book`, {
             method: "POST",
             data,
         })
@@ -16,9 +16,9 @@ export async function createUser(data: any) {
 
 }
 
-export async function getListUsers() {
+export async function getListBooks() {
     try {
-        const res = await axiosInstance(`/user/all`, {
+        const res = await axiosInstance(`/book/all`, {
             method: "GET",
         })
         return { data: res.data }
@@ -29,10 +29,9 @@ export async function getListUsers() {
 
 }
 
-
-export async function deleteUser(id: string) {
+export async function deleteBook(id: string) {
     try {
-        const res = await axiosInstance(`/user/${id}`, {
+        const res = await axiosInstance(`/book/${id}`, {
             method: "DELETE",
         })
         return { status: res.status }
@@ -43,9 +42,9 @@ export async function deleteUser(id: string) {
 
 }
 
-export async function getUserById(id: string) {
+export async function getBookById(id: string) {
     try {
-        const res = await axiosInstance(`/user/${id}`, {
+        const res = await axiosInstance(`/book/${id}`, {
             method: "GET",
         })
         return { data: res.data }
@@ -56,9 +55,9 @@ export async function getUserById(id: string) {
 
 }
 
-export async function updateUserById(data: any, id: string) {
+export async function updateBookById(data: any, id: string) {
     try {
-        const res = await axiosInstance(`/user/${id}`, {
+        const res = await axiosInstance(`/book/${id}`, {
             method: "PUT",
             data
         })

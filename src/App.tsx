@@ -17,6 +17,7 @@ import CreateAuther from "./pages/createAuther";
 import SignUp from "./pages/SignUp";
 import ListBooks from "./pages/books";
 import CreateBook from "./pages/createBook";
+import Profile from "./pages/Profile";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/create-auther" element={<CreateAuther />} />
           <Route path="/books" element={<ListBooks />} />
           <Route path="/create-book" element={<CreateBook />} />
+          <Route path="/account" element={<Profile />} />
         </Route>
 
         <Route element={<LogoutLayoutRoute />}>
