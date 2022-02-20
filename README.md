@@ -33,9 +33,13 @@ That's it for back-office
 step 6 :
 
 a-User management
+
 b-Category management
+
 c-Auther management
+
 d-book management
+
 note: if you face any problem then please contact with me or make a issue.
 
 Thank you (:
