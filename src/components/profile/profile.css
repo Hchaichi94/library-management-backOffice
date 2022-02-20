@@ -1,0 +1,24 @@
+.profile__header, .profile__information{
+    background: white;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px;
+}
+.profile__header {
+    text-align: center;
+}
+
+.profile__header h3{
+    margin-top: 10px;
+}
+.profileForm__container{
+    margin-top: 40px !important;
+}
+.profile{
+    background-color: #F5F5F5;
+    padding-bottom: 30px;
+}

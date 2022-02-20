@@ -1,0 +1,30 @@
+.login {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+
+}
+.formLogin{
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px !important;
+}
+.login .ant-form-item-label{
+    width: 100px;
+}
+.login__container{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 30px;
+    background-color: #78C1CB;
+}
+       
+.createPost, .adressContainer, .createCategory, .news, .editPost, .home, .listAddress, .listCategory, .ListNotification, .listPost, .listSubCategory, .quizContainer, .notification{
+    background-color: #F5F5F5;
+    padding: 30px;
+}

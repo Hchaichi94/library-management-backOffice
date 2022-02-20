@@ -1,0 +1,477 @@
+html, body, #root{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.quizForm .ant-space-item:nth-child(1){
+  width: 95%;
+}
+.quizForm{
+  align-items: center;
+  margin-top: 30px !important;
+}
+.btnSaveQuiz{
+  text-align: center;
+}
+.quizHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quizContainer .ant-form-item-control-input-content{
+    text-align: center;
+}
+.App{
+  height: 100vh;
+}
+.containerPost{
+  width: 98% !important;
+}
+.postContainer{
+  border: 1px solid black;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+ 
+}
+.intoContent__fr{
+  border: 1px dashed grey;
+  padding: 30px;
+  margin-top: 30px;
+}
+.posts .ant-space-item:nth-child(1){
+  width: 100%;
+}
+.posts .removePosts{
+  width: 30px;
+  font-size: 20px;
+}
+.importantTxt .ant-row{
+  width: 100%;
+}
+.formCreatePost{
+  text-align: center;
+}
+.btnSubmit__createCat{
+  text-align: center;
+}
+.actions__category{
+  font-size: 20px;
+}
+
+.avatarCategory{
+  margin-bottom: 20px !important;
+}
+.subCategory__header{
+  display: flex;
+  align-items: center;
+}
+.arrowBack{
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.notification .ant-form-item-label {
+  width: 80px;
+}
+.notFound__page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.imgNotfound{
+  width: 40% !important;
+}
+.imgPreviewPost{
+  width: 20%;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.aboutus h2{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.aboutus .ql-blank{
+  max-height: 380px;
+  overflow: auto;
+}
+.aboutus .ql-container{
+  max-height: 310px;
+}
+.aboutus .ant-ribbon-wrapper{
+  width: 95%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border: 1px dashed black;
+  background: #F5F5F5;
+}
+.aboutus{
+  background: #F5F5F5;
+}
+.errLogin{
+  font-size: 16px;
+  color: rgb(170, 8, 8);
+  font-weight: 600;
+}
+.news .ant-form-item-label{
+  width: 100px;
+}
+.news .createNewsForm{
+  margin-top: 30px;
+}
+
+.intoContent__ar .ql-editor{
+  text-align: right;
+  direction: rtl;
+}
+
+.ql-editor li:not(.ql-direction-rtl)::before {
+  margin-left: 0 !important;
+}
+.intoContent__fr .ql-editor{
+  max-height: 302px;
+}
+.importantTxt .ql-editor{
+  max-height: 155px !important;
+}
+.aboutusContainer{
+  padding: 10px 50px;
+}
+.formAboutUs{
+  width: 90%;
+  text-align: center;
+  margin: auto !important;
+}
+.addQuiz{
+  margin-left: 20px;
+}
+.listPost__header{
+  display: flex;
+  justify-content: space-between;
+}
+.listPost__header .ant-select-arrow{
+  margin-top: -10px !important;
+}
+.aboutus .creator, .aboutus .support, .aboutus .thanks{
+  border: 1px solid black;
+  padding: 30px 30px 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.aboutus .creator h3{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.aboutus .ant-btn-primary{
+  margin: auto !important;
+}
+.aboutus .ant-ribbon-wrapper{
+  padding: 40px;
+}
+.aboutus h2{
+  text-align: center;
+}
+.arrowMove{
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px;
+  margin-bottom: 10px;
+  
+}
+.moveArrows__container{
+  display: grid;
+  margin-left: auto;
+  width: 10px;
+  margin-top: -15px;
+  margin-right: 10px;
+}
+.rtl{
+  direction: rtl;
+}
+.selectCategoryPere{
+  min-width: 300px;
+}
+.createCategory .ant-form-item-label{
+  margin-right: 10px;
+}
+
+.aboutus .ant-btn-primary{
+  margin-bottom: 20px !important;
+}
+.supportHeader{
+  padding: 30px;
+}
+
+
+
+/* Calendar */
+
+/* sunday */
+.ant-picker-date-panel .ant-picker-content th:nth-child(1){
+ color: white;
+ 
+}
+.ant-picker-date-panel .ant-picker-content th:nth-child(1):after{
+  content: "Lu";
+  display: block;
+  margin-top: -30px;
+  color: black !important;
+  font-weight: normal;
+}
+
+/* monday */
+.ant-picker-date-panel .ant-picker-content th:nth-child(2){
+  color: white;
+  
+ }
+ .ant-picker-date-panel .ant-picker-content th:nth-child(2):after{
+   content: "Ma";
+   display: block;
+   margin-top: -30px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* tuesday */
+.ant-picker-date-panel .ant-picker-content th:nth-child(3){
+  color: white;
+  
+ }
+ .ant-picker-date-panel .ant-picker-content th:nth-child(3):after{
+   content: "Me";
+   display: block;
+   margin-top: -30px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* wednesday */
+.ant-picker-date-panel .ant-picker-content th:nth-child(4){
+  color: white;
+  
+ }
+ .ant-picker-date-panel .ant-picker-content th:nth-child(4):after{
+   content: "Je";
+   display: block;
+   margin-top: -30px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* thursday */
+.ant-picker-date-panel .ant-picker-content th:nth-child(5){
+  color: white;
+  
+ }
+ .ant-picker-date-panel .ant-picker-content th:nth-child(5):after{
+   content: "Ve";
+   display: block;
+   margin-top: -30px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* friday */
+.ant-picker-date-panel .ant-picker-content th:nth-child(6){
+  color: white;
+  
+ }
+ .ant-picker-date-panel .ant-picker-content th:nth-child(6):after{
+   content: "Sa";
+   display: block;
+   margin-top: -30px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* saturday */
+.ant-picker-date-panel .ant-picker-content th:nth-child(7){
+  color: white;
+  
+ }
+ .ant-picker-date-panel .ant-picker-content th:nth-child(7):after{
+   content: "Di";
+   display: block;
+   margin-top: -30px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+
+ /* Janvier */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(1) td:nth-child(1){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(1) td:nth-child(1)::after{
+   content: "Jan";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* Fevrier */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(1) td:nth-child(2){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(1) td:nth-child(2)::after{
+   content: "Fev";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+/* Mars */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(1) td:nth-child(3){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(1) td:nth-child(3)::after{
+   content: "Mar";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* Avril */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(2) td:nth-child(1){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(2) td:nth-child(1)::after{
+   content: "Avr";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+/* Mai */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(2) td:nth-child(2){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(2) td:nth-child(2)::after{
+   content: "Mai";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+/* Juin */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(2) td:nth-child(3){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(2) td:nth-child(3)::after{
+   content: "Jui";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+/* Juillet */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(3) td:nth-child(1){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(3) td:nth-child(1)::after{
+   content: "Juil";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+/* Aout */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(3) td:nth-child(2){
+  color: white;
+  
+}
+.ant-picker-month-panel .ant-picker-content tr:nth-child(3) td:nth-child(2)::after{
+   content: "Aou";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+/* Septembre */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(3) td:nth-child(3){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(3) td:nth-child(3)::after{
+   content: "Sep";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+/* October */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(4) td:nth-child(1){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(4) td:nth-child(1)::after{
+   content: "Oct";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+ /* Nobvember */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(4) td:nth-child(2){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(4) td:nth-child(2)::after{
+   content: "Nov";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+ /* December */
+.ant-picker-month-panel .ant-picker-content tr:nth-child(4) td:nth-child(3){
+  color: white;
+  
+ }
+.ant-picker-month-panel .ant-picker-content tr:nth-child(4) td:nth-child(3)::after{
+   content: "Dec";
+   display: block;
+  padding-top: 20px;
+   color: black !important;
+   font-weight: normal;
+ }
+
+
+
+.ant-picker-month-panel .ant-picker-cell-inner{
+  display: none !important;
+}
+
+
+.aboutus .imgAndDeleteBtnFlex .deleteBtn{
+  width: 20px;
+  position: relative;
+  left: 70px;
+  bottom: 30px;
+  z-index: 1000;
+  cursor: pointer;
+}
