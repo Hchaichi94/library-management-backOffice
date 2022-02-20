@@ -14,6 +14,10 @@ REACT_APP_ENDPOINT=http://localhost:4000/api
 
 https://github.com/Hchaichi94/library-management-backOffice.git
 
+then inside main folder make a file called .env
+
+REACT_APP_ENDPOINT=http://localhost:4000/api
+
 first you need to install whole package,
 
 npm install or npm i

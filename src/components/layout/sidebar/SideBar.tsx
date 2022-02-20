@@ -47,6 +47,14 @@ const SideBar: React.FC<PropsSideBar> = ({ visibleDrawer, setVisibleDrawer }) =>
             setSelectedSideBarKey(["8"])
             setSelectedSideBarSub(["sub3"])
         }
+        if (location.pathname === "/books") {
+            setSelectedSideBarKey(["9"])
+            setSelectedSideBarSub(["sub4"])
+        }
+        if (location.pathname === "/create-book") {
+            setSelectedSideBarKey(["10"])
+            setSelectedSideBarSub(["sub4"])
+        }
     }, [location.pathname])
 
 
@@ -78,6 +86,10 @@ const SideBar: React.FC<PropsSideBar> = ({ visibleDrawer, setVisibleDrawer }) =>
                     <SubMenu key="sub3" icon={<MedicineBoxOutlined />} title="Authers">
                         <Menu.Item key="7"><Link className='sidebarLinks' to={'/authers'}>Liste Authers</Link></Menu.Item>
                         <Menu.Item key="8"><Link className='sidebarLinks' to={'/create-auther'}>Ajouter un auther</Link></Menu.Item>
+                    </SubMenu>
+                    <SubMenu key="sub4" icon={<MedicineBoxOutlined />} title="Books">
+                        <Menu.Item key="9"><Link className='sidebarLinks' to={'/books'}>Liste Books</Link></Menu.Item>
+                        <Menu.Item key="10"><Link className='sidebarLinks' to={'/create-book'}>Ajouter un livre</Link></Menu.Item>
                     </SubMenu>
                 </Menu>
 
